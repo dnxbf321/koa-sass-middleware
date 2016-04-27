@@ -1,0 +1,35 @@
+{
+  "name": "koa-sass-middleware",
+  "version": "1.0.0",
+  "description": "koa middleware for rendering sass request",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "example": "node example/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://dnxbf321@github.com/dnxbf321/koa-sass-middleware.git"
+  },
+  "keywords": [
+    "koa",
+    "middleware",
+    "sass"
+  ],
+  "author": "Jason Deng",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dnxbf321/koa-sass-middleware/issues"
+  },
+  "homepage": "https://github.com/dnxbf321/koa-sass-middleware#readme",
+  "dependencies": {
+    "autoprefixer": "^6.3.6",
+    "extend": "^3.0.0",
+    "koa": "^1.2.0",
+    "node-sass": "^3.6.0",
+    "postcss": "^5.0.19"
+  }
+}
